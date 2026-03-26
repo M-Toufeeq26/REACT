@@ -1,0 +1,38 @@
+@import "tailwindcss";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(191, 0, 255);
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(64, 217, 212);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+h1{
+    background-color: rgb(119, 119, 119);
+    width: fit-content;
+    font-size: 100px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    color: white;
+}
+.parent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
