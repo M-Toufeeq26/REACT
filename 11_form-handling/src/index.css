@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+
+input,button{
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 15px;
+}
+.parent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.parent button  {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.parent h1 {
+   position: absolute;
+   top: 190px;
+   color: white;
+   margin-left: 50px;
+}
