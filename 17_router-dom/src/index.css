@@ -1,0 +1,48 @@
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     
+    }
+    html, body{
+      height: 100%;
+      width: 100%;
+      background-color: grey;
+    }
+    a{
+      font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    }
+    h3{
+      height: 50px;
+      width: 30px;
+      color: black;  }
+    .Link{
+      height: 90px;
+      width: 100%;
+      color: black;
+      background-color: aquamarine; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+      .Link h2{
+        width: 70%;
+        height: 100%;
+        padding-top: 25px;
+        font-size: 40px;
+      }
+            .href Link{
+              height: 100%;
+              padding-top: 25px;
+        font-size: 20px;
+            }
+            h3{
+              width: 20%;
+              font-size: 50px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);}
