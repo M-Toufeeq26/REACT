@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+html, body {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.btn{
+  padding: 10px 10px;
+  background-color: rgb(4, 150, 155);
+  color: black;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.funcimgreturn img{
+  height: 190px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 25px;
+}
+.funcimgreturn span{
+  padding: 4px 5px;
+  color: white;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  bottom: 163px;
+  right: 243px;
+}
+.jsximgreturn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.parent{
+  overflow: auto;
+} 
+a{
+  text-decoration: none;
+  color: white;
+}
+h2{
+  font-size: 19px;
+  margin-left: 8px;
+}
+.PNcontainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.PN{
+  width: 76px;
+  font-size: x-large;
+  padding: 10px 10px;
+  background-color: rgb(4, 150, 155);
+  color: black;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+
+}
+.fixed{
+  margin-top: 30px;
+  font-size: 25px;
+}
